@@ -4,56 +4,56 @@
 <script>
   // ============================================================
   // PHOTO DATA
-  // Replace the `src` values with your actual photo file paths.
-  // Put your photos in the /static/photos/ folder.
-  // e.g. src: '/photos/dublin-street-01.jpg'
+  // Drop your photos into: static/portfolio/
+  // Update the src and caption for each photo below.
+  // e.g. src: '/portfolio/my-shot.jpg'
   // ============================================================
   const photos = [
     {
       id: 1,
-      src: 'https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?w=800&q=80',
+      src: '/portfolio/photo-1.jpg',
       alt: 'Dublin city street at golden hour',
       caption: 'Dublin City Centre — 2024',
     },
     {
       id: 2,
-      src: 'https://images.unsplash.com/photo-1533929736458-ca588d08c8be?w=600&q=80',
+      src: '/portfolio/photo-2.jpg',
       alt: 'Silhouette on a Dublin street',
       caption: 'Grafton Street — 2024',
     },
     {
       id: 3,
-      src: 'https://images.unsplash.com/photo-1494526585095-c41746248156?w=800&q=80',
+      src: '/portfolio/photo-3.jpg',
       alt: 'Rainy evening Dublin',
       caption: 'Temple Bar — 2024',
     },
     {
       id: 4,
-      src: 'https://images.unsplash.com/photo-1501854140801-50d01698950b?w=600&q=80',
+      src: '/portfolio/photo-4.jpg',
       alt: 'Morning light Dublin',
       caption: 'Grand Canal — 2024',
     },
     {
       id: 5,
-      src: 'https://images.unsplash.com/photo-1488972685288-c3fd157d7c7a?w=700&q=80',
+      src: '/portfolio/photo-5.jpg',
       alt: 'Architecture and shadow',
       caption: 'Docklands — 2024',
     },
     {
       id: 6,
-      src: 'https://images.unsplash.com/photo-1530521954074-e64f6810b32d?w=800&q=80',
+      src: '/portfolio/photo-6.jpg',
       alt: 'Street portrait Dublin',
-      caption: 'O\'Connell Street — 2024',
+      caption: "O'Connell Street — 2024",
     },
     {
       id: 7,
-      src: 'https://images.unsplash.com/photo-1441984904996-e0b6ba687e04?w=600&q=80',
+      src: '/portfolio/photo-7.jpg',
       alt: 'Urban texture',
       caption: 'Portobello — 2024',
     },
     {
       id: 8,
-      src: 'https://images.unsplash.com/photo-1518998053901-5348d3961a04?w=700&q=80',
+      src: '/portfolio/photo-8.jpg',
       alt: 'Evening commuters',
       caption: 'Pearse Station — 2024',
     },
@@ -150,11 +150,11 @@
     <!-- Portrait photo — replace src with your actual photo path -->
     <!-- Put your photo in /static/ and update the src below -->
     <div class="about-portrait">
+      <!-- Replace src with your photo. Put it in: static/headshot/ -->
       <img
-        src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=400&q=80"
+        src="/headshot/headshot.jpg"
         alt="Danish — portrait"
       />
-      <!-- Replace the above with: src="/your-photo.jpg" -->
     </div>
 
     <!-- Bio text -->
