@@ -1,0 +1,159 @@
+/* ============================================
+   DANISH — Street Photography Portfolio
+   Global Styles
+   ============================================ */
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300;0,400;1,300&family=Montserrat:wght@300;400&display=swap');
+
+/* --- CSS Variables --- */
+:root {
+  --bg: #0e0e0e;
+  --bg-subtle: #161616;
+  --text: #d4d0c8;
+  --text-dim: #5a5750;
+  --text-bright: #f0ede6;
+  --nav-width: 160px;
+  --font-display: 'Cormorant', Georgia, serif;
+  --font-body: 'Montserrat', sans-serif;
+  --transition: 0.35s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+/* --- Reset --- */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--text);
+  font-family: var(--font-body);
+  font-weight: 300;
+  font-size: 13px;
+  letter-spacing: 0.02em;
+  line-height: 1.7;
+  overflow-x: hidden;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+/* --- Layout shell --- */
+.shell {
+  display: flex;
+  min-height: 100vh;
+}
+
+/* --- Side Nav --- */
+nav.sidenav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: var(--nav-width);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 48px 32px;
+  z-index: 100;
+  border-right: 1px solid #1c1c1c;
+}
+
+nav.sidenav .nav-logo {
+  font-family: var(--font-display);
+  font-size: 18px;
+  font-weight: 300;
+  letter-spacing: 0.12em;
+  color: var(--text-bright);
+  text-transform: uppercase;
+}
+
+nav.sidenav .nav-links {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+
+nav.sidenav .nav-links a {
+  font-size: 10px;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--text-dim);
+  transition: color var(--transition);
+  position: relative;
+}
+
+nav.sidenav .nav-links a::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -3px;
+  width: 0;
+  height: 1px;
+  background: var(--text);
+  transition: width var(--transition);
+}
+
+nav.sidenav .nav-links a:hover,
+nav.sidenav .nav-links a.active {
+  color: var(--text-bright);
+}
+
+nav.sidenav .nav-links a:hover::after,
+nav.sidenav .nav-links a.active::after {
+  width: 100%;
+}
+
+nav.sidenav .nav-footer {
+  font-size: 9px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--text-dim);
+  line-height: 2;
+}
+
+/* --- Main content area --- */
+main {
+  margin-left: var(--nav-width);
+  flex: 1;
+  min-height: 100vh;
+}
+
+/* --- Sections --- */
+section {
+  min-height: 100vh;
+  padding: 80px 60px 80px 60px;
+}
+
+/* --- Section headings --- */
+.section-label {
+  font-size: 9px;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  color: var(--text-dim);
+  margin-bottom: 64px;
+}
+
+/* --- Scrollbar --- */
+::-webkit-scrollbar {
+  width: 4px;
+}
+::-webkit-scrollbar-track {
+  background: var(--bg);
+}
+::-webkit-scrollbar-thumb {
+  background: #2a2a2a;
+  border-radius: 2px;
+}
