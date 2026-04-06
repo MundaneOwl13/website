@@ -171,12 +171,7 @@
         I shoot with a Fujifilm X-T5, mostly around Dublin city centre, drawn to
         golden-hour raking light, silhouettes, and the quiet moments people don't notice.
       </p>
-      <p>
-        Professionally I work with data: Power BI, Tableau, Excel, SQL.
-        I'm looking for roles in data analysis and business systems after graduation.
-        But this site is about the photography.
-      </p>
-
+     
       <!-- Fun facts / camera details -->
       <ul class="about-facts">
         <li>Fujifilm X-T5 &nbsp;·&nbsp; XF 16–50mm &nbsp;·&nbsp; Classic Neg</li>
