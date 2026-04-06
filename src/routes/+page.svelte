@@ -165,7 +165,7 @@
 
       <p>
         Based in Dublin. Final-year Business Information Systems student at
-        Dublin Business School by day — street photographer whenever the light is good.
+        Dublin Business School by day & street photographer whenever the light is good.
       </p>
       <p>
         I shoot with a Fujifilm X-T5, mostly around Dublin city centre, drawn to
