@@ -95,7 +95,7 @@
     <p class="hero-label">Street Photography — Dublin</p>
 
     <!-- Main headline — the big name -->
-    <h1 class="hero-headline">Danish</h1>
+    <h1 class="hero-headline">WISEXCV</h1>
 
     <!-- Sub-headline -->
     <p class="hero-sub">
