@@ -95,7 +95,7 @@
     <p class="hero-label">Street Photography — Dublin</p>
 
     <!-- Main headline — the big name -->
-    <h1 class="hero-headline">WISE</h1>
+    <h1 class="hero-headline">wisexcv</h1>
 
     <!-- Sub-headline -->
     <p class="hero-sub">
@@ -153,14 +153,14 @@
       <!-- Replace src with your photo. Put it in: static/headshot/ -->
       <img
         src="/headshot/headshot.jpg"
-        alt="WISE — portrait"
+        alt="wisexcv — portrait"
       />
     </div>
 
     <!-- Bio text -->
     <div class="about-text">
 
-      <h2 class="about-name">WISE</h2>
+      <h2 class="about-name">wisexcv</h2>
       <p class="about-tagline">Dublin. Street. Light.</p>
 
       <p>
