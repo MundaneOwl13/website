@@ -206,7 +206,7 @@
 
     <!-- Replace with your actual email address -->
     <a href="mailto:your@email.com" class="contact-email">
-      your@email.com
+      uwais1307@email.com
     </a>
   </div>
 
