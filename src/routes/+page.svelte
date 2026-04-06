@@ -31,13 +31,13 @@
       id: 4,
       src: '/portfolio/photo-4.jpg',
       alt: 'Morning light Dublin',
-      caption: 'Grand Canal — 2024',
+      caption: 'Dublin City Centre — 2024',
     },
     {
       id: 5,
       src: '/portfolio/photo-5.jpg',
       alt: 'Architecture and shadow',
-      caption: 'Docklands — 2024',
+      caption: 'Dublin City Centre — 2024',
     },
     {
       id: 6,
@@ -55,7 +55,7 @@
       id: 8,
       src: '/portfolio/photo-8.jpg',
       alt: 'Evening commuters',
-      caption: 'Pearse Station — 2024',
+      caption: 'Dublin City Centre — 2024',
     },
   ];
 
