@@ -14,7 +14,7 @@
   <nav class="sidenav">
 
     <!-- Logo / Name -->
-    <a href="/" class="nav-logo">Danish</a>
+    <a href="/" class="nav-logo">WISEXCV</a>
 
     <!-- Nav links -->
     <div class="nav-links">
