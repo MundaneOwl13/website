@@ -203,7 +203,7 @@
     </p>
 
     <!-- Replace with your actual email address -->
-    <a href="mailto:your@email.com" class="contact-email">
+    <a href="mailto:uwais1307@gmail.com" class="contact-email">
       uwais1307@email.com
     </a>
   </div>
